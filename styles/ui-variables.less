@@ -10,15 +10,15 @@
 
 
 // Text -----------------
-@text-color:            @ui-fg;
+@text-color:            @light-orange;
 @text-color-subtle:     fadeout(@text-color, 40%);
 @text-color-highlight:  lighten(@text-color, 20%);
 @text-color-selected:   white;
 
-@color-info:    #5bc0de;
-@color-success: #5cb85c;
-@color-warning: #f0ad4e;
-@color-error:   #d9534f;
+@color-info:    @blue;
+@color-success: @green;
+@color-warning: @orange;
+@color-error:   @red;
 
 @text-color-info:    lighten(@color-info, 6%);
 @text-color-success: lighten(@color-success, 6%);
@@ -39,7 +39,7 @@
 
 
 // Base -----------------
-@base-background-color: @ui-bg;
+@base-background-color: @dark-red;
 @base-border-color:     lighten(@ui-border, 1%);
 
 
@@ -98,4 +98,4 @@
 
 
 // Font -----------------
-@font-family: 'BlinkMacSystemFont', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+@font-family: 'Hack', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;

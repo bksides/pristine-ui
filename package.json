@@ -1,8 +1,8 @@
 {
-  "name": "pristine-ui",
+  "name": "reddish-ui",
   "theme": "ui",
-  "version": "1.1.8",
-  "description": "Pristine UI theme",
+  "version": "0.0.1",
+  "description": "Reddish UI theme",
   "keywords": [
     "dark",
     "adaptive",
@@ -11,7 +11,7 @@
     "clean"
   ],
   "license": "MIT",
-  "repository": "https://github.com/cdonohue/pristine-ui",
+  "repository": "https://github.com/bksides/reddish-ui",
   "main": "lib/main",
   "engines": {
     "atom": ">0.40.0"
